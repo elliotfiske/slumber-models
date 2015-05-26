@@ -1,6 +1,6 @@
 //Maya ASCII 2015 scene
 //Name: clock-filetexture.ma
-//Last modified: Mon, May 11, 2015 03:07:14 PM
+//Last modified: Mon, May 11, 2015 09:54:29 PM
 //Codeset: 1252
 requires maya "2015";
 currentUnit -l centimeter -a degree -t film;
