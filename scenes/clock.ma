@@ -1,6 +1,6 @@
 //Maya ASCII 2015 scene
 //Name: clock.ma
-//Last modified: Mon, May 11, 2015 09:54:23 PM
+//Last modified: Wed, May 27, 2015 10:51:34 PM
 //Codeset: 1252
 requires maya "2015";
 currentUnit -l centimeter -a degree -t film;
@@ -12,12 +12,12 @@ fileInfo "osv" "Microsoft Windows 7 Home Premium Edition, 64-bit Windows 7 Servi
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 25.507883191834981 16.667198528362711 -17.733379069035266 ;
-	setAttr ".r" -type "double3" -0.33835273006673711 126.60000000020561 0 ;
+	setAttr ".t" -type "double3" -4.4355598680180961 30.840027284436236 -54.100825189279099 ;
+	setAttr ".r" -type "double3" -14.738352730065536 186.20000000020437 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 29.960212269367858;
+	setAttr ".coi" 56.405076970509057;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
